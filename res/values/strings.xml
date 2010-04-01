@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">BugReporterSample</string>
+	<string name="bugreport_title">バグ報告</string>
+	<string name="bugreport_description">開発者にバグ発生情報を送信します</string>
+</resources>
