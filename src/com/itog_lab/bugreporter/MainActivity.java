@@ -2,6 +2,7 @@ package com.itog_lab.bugreporter;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
@@ -20,6 +21,7 @@ public class MainActivity extends Activity {
             public void onClick(View v) {
             int index = 5;
             String[] strs = new String[index];
+            Log.w(TAG, "LogCat Message");
             String str = strs[index];//ここでIndexOutOfBoundsException
         }});
     }
